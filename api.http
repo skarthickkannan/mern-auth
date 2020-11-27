@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/v1/user/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "karthickkannan",
+    "email": "kkedits77@gmail.com",
+    "password": "8939065699@@"
+}
+
+###
+POST http://localhost:5000/api/v1/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "kkedits77@gmail.com",
+    "password": "8939065699@@"
+}
+
+###
+GET http://localhost:5000/api/v1/user/current HTTP/1.1
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmJlNTVkNDBlOWNjMDMwMTEwYjUwMTgiLCJpYXQiOjE2MDY0NTIwMjEsImV4cCI6MTYwNjYyNDgyMX0.AjPQwLCGLoETIc_7S3Xt_lB979i04r_iF_1Dy-83lMM
+
+###
+GET http://localhost:5000/api/v1/post/allPost HTTP/1.1
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmJlNTVkNDBlOWNjMDMwMTEwYjUwMTgiLCJpYXQiOjE2MDYzMTA5MDcsImV4cCI6MTYwNjQ4MzcwN30.RWBrWSVApyxbKV9ohvi6DYJfiZnuUIDSTBCAXF5al5g
